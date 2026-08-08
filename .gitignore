@@ -1,0 +1,9 @@
+*.obj
+*.exp
+*.lib
+*.dll
+*.exe
+*.pdb
+*.ilk
+dump/
+dump_live/

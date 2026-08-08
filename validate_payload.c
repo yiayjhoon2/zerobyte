@@ -1,4 +1,4 @@
-// validate_payload.c — proves payload.dll installs itself correctly inside a live JVM.
+// proves payload.dll installs itself correctly inside a live JVM.
 // Creates a VM in-process, LoadLibrary's payload.dll (its DllMain arms the guard against
 // the already-loaded jvm.dll — exactly what the injected case does), then forces a
 // GUARANTEED-fresh class parse via JNI DefineClass on a synthetic class whose name carries

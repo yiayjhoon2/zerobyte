@@ -1,4 +1,4 @@
-// veh_capture.c — zero-byte class capture engine (page-guard + VEH).
+// 
 //
 // Validation build: creates a JVM in-process via JNI_CreateJavaVM and hooks the
 // internal class-define funnel, proving the hook reads class bytes with ZERO code

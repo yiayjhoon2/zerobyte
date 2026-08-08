@@ -1,4 +1,4 @@
-// inject.c — piece #3 delivery loader.
+
 // Maps payload.dll into a target process by hand and starts payload_main on a thread there.
 // Avoids LoadLibrary in the target and needs no -agentpath on the target command line.
 // Usage:
@@ -9,7 +9,7 @@
 // The -match form skips PIDs whose command line lacks the substring. Use it when a
 // launcher spawns a short-lived helper JVM before the real one and you only want the
 // real launch, e.g.:
-//   inject.exe -wait javaw.exe -match com.example.main payload.dll
+//   inject.exe -wait javaw.exe -match MYMINECRAFTINSTANCE payload.dll
 
 #include <windows.h>
 #include <tlhelp32.h>

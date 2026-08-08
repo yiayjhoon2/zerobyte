@@ -1,6 +1,7 @@
 # zerobyte
 
 Disclaimer this is very ai-coded for anyone who cares. 
+I'm no programmer
 
 Observe every class a HotSpot JVM defines at runtime, without `-javaagent`,
 `-agentpath`, `LoadLibrary` in the target, or any bytes changed in `jvm.dll`.

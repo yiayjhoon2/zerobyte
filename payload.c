@@ -1,4 +1,4 @@
-// payload.c — the hook installer, packaged to run INSIDE a live javaw.exe.
+// packaged to run INSIDE a live javaw.exe.
 //
 // Mechanism: hardware breakpoint on DR0. The original page-guard approach captured
 // cleanly during validation but couldn't survive a real workload: the 4 KB page containing

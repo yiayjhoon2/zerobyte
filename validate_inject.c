@@ -1,4 +1,4 @@
-// validate_inject.c — proves inject.exe maps payload.dll into a running JVM and the guard
+// proves inject.exe maps payload.dll into a running JVM and the guard
 // catches live defines from outside. Spins up a JVM, pauses for ~5s (window for the injector
 // to attach), then defines 300 synthetic classes through JNI DefineClass. Count of files in
 // dump_live tells us whether the injected payload caught them.
